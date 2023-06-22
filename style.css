@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #ebf2ff;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: #3457dd;
+    position: relative;
+    top: 10rem;
+    left: 35rem;
+    border-radius: 10px;
+}
+
+.payment {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+    width: 600px;
+    height: 40px;
+    background-color: #5878f2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.payment p {
+    padding-left: 50px;
+}
+
+.payment i:first-child {
+    position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+}
+
+.payment i:last-of-type {
+    position: absolute;
+    right: 1rem;
+    color: #7f95f6;
+    cursor: pointer;
+}
+
+.error {
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+    width: 600px;
+    height: 40px;
+    background-color: #e9657b;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.error p:first-of-type {
+    padding-left: 20px; 
+}
+
+.error p:last-of-type {
+    position: absolute;
+    right: 3rem;
+    cursor: pointer;
+}
+
+.error i:last-of-type {
+    position: absolute;
+    right: 1rem;
+    color: #eee;
+    cursor: pointer;
+}
+
+.changes {
+    position: absolute;
+    top: 20rem;
+    left: 6rem;
+    width: 600px;
+    height: 40px;
+    background-color: #5878f2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.changes p {
+    padding-left: 20px;
+}
+
+.changes i:last-of-type {
+    position: absolute;
+    right: 1rem;
+    color: #eee;
+    cursor: pointer;
+}
